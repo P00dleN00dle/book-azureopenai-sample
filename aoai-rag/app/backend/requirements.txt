@@ -378,7 +378,7 @@ tiktoken==0.5.2
     # via -r requirements.in
 tomli==2.0.1
     # via hypercorn
-tqdm==4.66.1
+tqdm==4.66.3
     # via openai
 types-pytz==2023.3.1.1
     # via pandas-stubs
