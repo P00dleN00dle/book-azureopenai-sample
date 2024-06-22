@@ -45,7 +45,7 @@ azure-core-tracing-opentelemetry==1.0.0b11
     # via azure-monitor-opentelemetry
 azure-cosmos==4.5.1
     # via -r requirements.in
-azure-identity==1.15.0
+azure-identity==1.16.1
     # via -r requirements.in
 azure-monitor-opentelemetry==1.1.1
     # via -r requirements.in
@@ -81,7 +81,7 @@ colorama==0.4.6
     #   click
     #   tqdm
     #   uvicorn
-cryptography==41.0.7
+cryptography==42.0.8
     # via
     #   azure-identity
     #   azure-storage-blob
@@ -125,11 +125,11 @@ httptools==0.6.1
     # via uvicorn
 httpx==0.25.2
     # via openai
-hypercorn==0.15.0
+hypercorn==0.16.0
     # via quart
 hyperframe==6.0.1
     # via h2
-idna==3.6
+idna==3.7
     # via
     #   anyio
     #   httpx
@@ -146,7 +146,7 @@ itsdangerous==2.1.2
     # via
     #   flask
     #   quart
-jinja2==3.1.2
+jinja2==3.1.4
     # via
     #   flask
     #   quart
@@ -340,7 +340,7 @@ quart-cors==0.7.0
     # via -r requirements.in
 regex==2023.10.3
     # via tiktoken
-requests==2.31.0
+requests==2.32.2
     # via
     #   azure-core
     #   langchain
@@ -378,7 +378,7 @@ tiktoken==0.5.2
     # via -r requirements.in
 tomli==2.0.1
     # via hypercorn
-tqdm==4.66.1
+tqdm==4.66.3
     # via openai
 types-pytz==2023.3.1.1
     # via pandas-stubs
@@ -406,7 +406,7 @@ watchfiles==0.21.0
     # via uvicorn
 websockets==12.0
     # via uvicorn
-werkzeug==3.0.1
+werkzeug==3.0.3
     # via
     #   flask
     #   quart
@@ -426,3 +426,4 @@ zipp==3.17.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
