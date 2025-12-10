@@ -9,3 +9,4 @@ coverage
 pytest-cov
 pre-commit
 locust
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
